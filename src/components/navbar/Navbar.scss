@@ -1,0 +1,40 @@
+.nav{
+    height: 70px;
+    width: 100%;
+    font-family: 'Source Sans Pro';
+    line-height: 70px;
+    padding: 0 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 30px;    
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.navbar{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0 20px;
+    }
+}
+
+.btn-contact{
+    border: 1px solid #FCE72D;
+    border-radius: 25px;    
+    padding: 10px 25px;    
+    text-decoration: none;
+    color: #FCE72D;
+    font-size: 14px;
+    font-weight: 600;
+    
+}

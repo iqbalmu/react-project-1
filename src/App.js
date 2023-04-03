@@ -1,9 +1,10 @@
 import React from 'react'
-import Hero from './page/Hero'
-import Profile from './page/Profile'
-import Skils from './page/Skils'
-import Projects from './page/Projects'
-import Contact from './page/Contact'
+import Hero from './page/hero/Hero'
+import Profile from './page/profile/Profile'
+import Skils from './page/skils/Skils'
+import Projects from './page/project/Projects'
+import Contact from './page/contact/Contact'
+import './app.scss'
 
 const App = () => {
   return (

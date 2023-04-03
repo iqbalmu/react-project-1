@@ -1,0 +1,43 @@
+.intro {
+    width: 75%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgba(255, 255, 255, 0.315);
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+
+.header {    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 54px;
+}
+
+.desc {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 20px 0 80px;
+}
+
+.btn-more{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
