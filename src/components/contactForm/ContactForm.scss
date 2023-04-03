@@ -1,0 +1,52 @@
+.form-contact{
+    position: relative;
+}
+.form-group {
+    display: flex;
+    min-width: 100%;
+
+    .form-control input {
+        width: 95%;
+    }    
+}
+
+.form-control {
+    width: 100%;
+    margin: 25px 0;
+
+    label {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    input {
+        height: 40px;
+        width: 100%;
+        border: 1px solid #BFBFE3;
+    }
+
+    textarea {
+        height: 140px;
+        width: 100%;
+        border: 1px solid #BFBFE3;
+    }
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+}

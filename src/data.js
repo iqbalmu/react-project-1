@@ -10,6 +10,11 @@ import proj1 from './asset/img/project/proj1.jpeg'
 import proj2 from './asset/img/project/proj2.jpeg'
 import proj3 from './asset/img/project/proj3.jpeg'
 
+// icons contacts
+import mail from './asset/icons/social/maill.svg'
+import phone from './asset/icons/social/phone.svg'
+import twitter from './asset/icons/social/twitter.svg'
+
 // data skils
 export const skils = [
     {
@@ -95,4 +100,25 @@ export const projects = [
         title: "Project 4",
         text: "Contoh Project Keempat"
     }
+]
+
+export const contacts = [
+    {
+        id: 1,
+        title: "Mail",
+        contact: "iqbalmu1601@gmail.com",
+        icon: mail        
+    },
+    {
+        id: 2,
+        title: "Phone",
+        contact: "+62 821 9650 6900",
+        icon: phone        
+    },
+    {
+        id: 3,
+        title: "Twitter",
+        contact: "@iqbalmuu",
+        icon: twitter  
+    },
 ]

@@ -1,13 +1,16 @@
 import React from 'react'
+import './ContactCard.scss'
 
-const ContactCard = ({image, title, text}) => {
+const ContactCard = ({ icon, title, contact }) => {
   return (
     <div className='card'>
-        <img src={image}/>
-        <div className='desc'>
-            <h5>{title}</h5>
-            <h5>{text}</h5>
-        </div>
+      <div className='image-card'>
+        <img src={icon} />
+      </div>
+      <div className='desc'>
+        <h5>{title}</h5>
+        <p>{contact}</p>
+      </div>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import Profile from './page/profile/Profile'
 import Skils from './page/skils/Skils'
 import Projects from './page/project/Projects'
 import Contact from './page/contact/Contact'
+import Footer from './components/footer/Footer'
 import './app.scss'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Skils />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }
