@@ -1,13 +1,15 @@
 import React from 'react'
 import './ProjThumb.scss'
 
-const ProjThumb = ({image, title, text}) => {
+const ProjThumb = ({ image, title, text, link }) => {
   return (
-    <div className='thumb'>
-        <img src={image}/>
+    <a href={link} target='_blank'>
+      <div className='thumb'>
+        <img src={image} />
         <h3>{title}</h3>
         <p>{text}</p>
-    </div>
+      </div>
+    </a>
   )
 }
 

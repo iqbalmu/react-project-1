@@ -9,7 +9,8 @@ const ContactForm = () => {
                     <label>Name</label>
                     <input type='text' />
                 </div>
-                <div className='form-control'>
+                <div className='mid'></div>
+                <div className='form-control' >
                     <label>Email</label>
                     <input type='email' />
                 </div>

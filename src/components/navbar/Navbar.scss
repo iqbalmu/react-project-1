@@ -18,6 +18,7 @@
     transition: all 1s;
     // box-shadow: 1px 1px 15px 10px #4040406e;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    z-index: 999;
 }
 
 .title {
@@ -53,7 +54,7 @@
     text-decoration: none;
     color: #FCE72D;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
     cursor: pointer;
 
     &:hover{

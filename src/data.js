@@ -8,7 +8,6 @@ import javaIcon from './asset/icons/programming/java.png'
 // thumbnails project
 import proj1 from './asset/img/project/proj1.jpeg'
 import proj2 from './asset/img/project/proj2.jpeg'
-import proj3 from './asset/img/project/proj3.jpeg'
 
 // icons contacts
 import mail from './asset/icons/social/maill.svg'
@@ -80,25 +79,29 @@ export const projects = [
         id: 1,
         image: proj1,
         title: "Project 1",
-        text: "Contoh Project Pertama"
+        text: "Contoh Project Pertama",
+        link: "https:\\google.com"
     },
     {
         id: 2,
         image: proj2,
         title: "Project 2",
-        text: "Contoh Project Kedua"
+        text: "Contoh Project Kedua",
+        link: "https:\\google.com"
     },
     {
         id: 3,
-        image: proj3,
+        image: proj1,
         title: "Project 3",
-        text: "Contoh Project Ketiga"
+        text: "Contoh Project Ketiga",
+        link: "https:\\google.com"
     },
     {
         id: 4,
         image: proj2,
         title: "Project 4",
-        text: "Contoh Project Keempat"
+        text: "Contoh Project Keempat",
+        link: "https:\\google.com"
     }
 ]
 

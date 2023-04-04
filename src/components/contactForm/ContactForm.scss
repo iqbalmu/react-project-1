@@ -1,18 +1,19 @@
-.form-contact{
+.form-contact {
     position: relative;
 }
+
 .form-group {
     display: flex;
     min-width: 100%;
 
-    .form-control input {
-        width: 95%;
-    }    
+    .mid {
+        width: 50px;
+    }
 }
 
 .form-control {
     width: 100%;
-    margin: 25px 0;
+    margin: 15px 0;
 
     label {
         font-family: 'Source Sans Pro';
@@ -32,6 +33,7 @@
     textarea {
         height: 140px;
         width: 100%;
+        resize: none;
         border: 1px solid #BFBFE3;
     }
 }
@@ -49,4 +51,9 @@
     color: #FFFFFF;
     position: absolute;
     right: 0;
+
+    &:hover {
+        cursor: pointer;
+        background: #161616;
+    }
 }
