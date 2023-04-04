@@ -5,6 +5,7 @@ import { skils } from "../../data";
 import './Skils.scss'
 
 const Skils = () => {
+  
   return (
     <div className='skils'>
       <div className='container'>

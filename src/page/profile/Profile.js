@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import Title from '../../components/title/Title'
 import img from '../../asset/img/profile.png'
 import './Profile.scss'

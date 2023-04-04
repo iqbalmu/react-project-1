@@ -8,14 +8,15 @@ import Footer from './components/footer/Footer'
 import './app.scss'
 
 const App = () => {
+
   return (
     <div>
       <Hero />
-      <Profile />
-      <Skils />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Profile/>
+      <Skils/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

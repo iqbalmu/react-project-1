@@ -5,9 +5,9 @@ import './Contact.scss'
 import ContactCard from '../../components/contactCard/ContactCard';
 import ContactForm from '../../components/contactForm/ContactForm';
 
-const Contact = () => {
+const Contact = ({ref}) => {
   return (
-    <div className='container'>
+    <div ref={ref} className='container'>
       <div className='contact-card'>
         <div className='contacts'>
           <Title className={"title"} title={"Contact"} desc={"Beberapa cara menghubungi saya."} />
