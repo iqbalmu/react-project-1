@@ -4,11 +4,20 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro';
     line-height: 70px;
-    padding: 0 15px;
+    padding: 0 15%;
     color: white;
     display: flex;
     justify-content: space-between;
-    ;
+    position: fixed;
+    transition: .5s;
+}
+
+.bgOnScroll{
+    // background: white;
+    background: rgb(88, 42, 216);
+    transition: all 1s;
+    // box-shadow: 1px 1px 15px 10px #4040406e;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .title {
@@ -16,6 +25,7 @@
     font-style: normal;
     font-weight: 600;
     letter-spacing: 0.1em;
+    cursor: pointer;
 }
 
 .navbar {
@@ -28,6 +38,7 @@
         font-weight: 600;
         font-size: 18px;
         margin: 0 20px;
+        cursor: pointer;
 
         &:hover {
             color: white;
@@ -43,6 +54,7 @@
     color: #FCE72D;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 
     &:hover{
         background: #FCE72D;

@@ -5,7 +5,7 @@ import './Profile.scss'
 
 const Profile = () => {
   return (
-    <div className='profile'>
+    <div className='profile' id='profile'>
       <div className='container'>
         <Title
           title={"Profile"}

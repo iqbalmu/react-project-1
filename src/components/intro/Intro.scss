@@ -40,4 +40,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
+
+    &:hover{
+        cursor: pointer;
+        transition: all .3s;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
 }

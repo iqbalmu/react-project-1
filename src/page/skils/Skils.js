@@ -7,7 +7,7 @@ import './Skils.scss'
 const Skils = () => {
   
   return (
-    <div className='skils'>
+    <div className='skils' id='skils'>
       <div className='container'>
         <Title title={"Skils"} desc={"Beberapa kemampuan saya."} />
         <div className='wrapper'>

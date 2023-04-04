@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/navbar/Navbar'
 import Hero from './page/hero/Hero'
 import Profile from './page/profile/Profile'
 import Skils from './page/skils/Skils'
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div>
+      <Navbar />
       <Hero />
       <Profile/>
       <Skils/>
